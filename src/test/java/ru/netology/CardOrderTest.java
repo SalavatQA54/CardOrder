@@ -182,7 +182,7 @@ public class CardOrderTest {
         $x("//span[contains(text(), 'Владимир')]").click();
         $("[data-test-id='date'] input").click();
 
-        if(!generateDate(defaultAddedDays,"MM").equals(generateDate(dayToAdd, "MM"))) {
+        if (!generateDate(defaultAddedDays, "MM").equals(generateDate(dayToAdd, "MM"))) {
             $("[data-step='1']").click();
         }
 
